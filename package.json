@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "prebuild": "rimraf dist",
+    "build": "vite build",
     "preview": "vite preview",
     "host": "vite --host"
-
   },
   "dependencies": {
     "vue": "^3.5.22"
@@ -17,6 +17,7 @@
     "@types/node": "^24.6.0",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.8.1",
+    "rimraf": "^6.1.0",
     "typescript": "~5.9.3",
     "vite": "^7.1.7",
     "vue-tsc": "^3.1.0"
