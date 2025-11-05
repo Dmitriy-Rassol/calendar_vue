@@ -11,9 +11,9 @@
 - При наведении на дату в календаре отображается информация о дате
 
 ## Ресурсы
--[Svg для русского языка](https://www.svgrepo.com/svg/401732/flag-for-russia)
--[Svg для английского языка](https://www.svgrepo.com/svg/242307/united-states-of-america-united-states)
--[Справочный материал](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+- [Svg для русского языка](https://www.svgrepo.com/svg/401732/flag-for-russia)
+- [Svg для английского языка](https://www.svgrepo.com/svg/242307/united-states-of-america-united-states)
+- [Справочный материал](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
 ## Запуск проекта
 
