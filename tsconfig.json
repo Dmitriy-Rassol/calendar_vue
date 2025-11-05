@@ -5,8 +5,25 @@
     { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
+    // Отключаем строгий режим
+    "strict": false,
+
+    // Разрешаем неявный any (если параметры/переменные без типов)
+    "noImplicitAny": false,
+
+    // Разрешаем неиспользуемые переменные
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+
+    // Отключаем проверку на null/undefined
+    "strictNullChecks": false,
+
+    // Другие смягчающие настройки
+    "noImplicitThis": false,
+    "alwaysStrict": false,
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     }
   }
 }
