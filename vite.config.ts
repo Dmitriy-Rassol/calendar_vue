@@ -15,6 +15,6 @@ export default defineConfig({
     port: 8080,
   },
   build: {
-    outDir: 'build' // измените на другую папку
+    outDir: 'docs' // измените на другую папку
   }
 })
